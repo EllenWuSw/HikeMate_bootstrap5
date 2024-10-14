@@ -9,6 +9,12 @@ a {
   display: inline-block;
 }
 
+ul,
+ol,
+li {
+  list-style: none;
+}
+
 code {
   font-family: "Noto Sans TC", sans-serif;
   color: $success;
@@ -33,4 +39,9 @@ p {
 
 .icon-unfilled {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
 }
