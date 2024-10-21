@@ -1,3 +1,54 @@
 .index-title {
   font-size: 100px;
 }
+
+
+//--banner!--//
+
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.indexBanner {
+  padding-top: 260px;
+  padding-bottom: 348px;
+  margin: 0 auto;
+  min-height: 100vh; /* 設定高度以填滿整個視口 */
+  background: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+  background-image: url(../assets/images/HikeMate\ Banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h2{
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 81px;
+  text-align: center;
+}
+
+
+.BannerTextH1{
+color: white;
+margin-bottom: 40px;
+}
+
+.Bannersearch-bar{
+  color: #000;
+  height: 84px;
+  padding: 24px 40px 24px 40px;
+  gap: 8px;
+  border-radius: 4px 0px 0px 0px;
+  border: 2px 0px 0px 0px;
+}
+
+
+
+
+
+
