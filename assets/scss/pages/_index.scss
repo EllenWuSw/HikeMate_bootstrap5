@@ -36,6 +36,32 @@ h2{
 .BannerTextH1{
 color: white;
 margin-bottom: 40px;
+font-weight: 900;
+text-align: center;
+}
+
+@media (min-width: 376px) {
+  .BannerTextH1 {
+    font-size: 72px;
+    line-height: 81px;
+  }
+
+  .search-input {
+    width: 596px;
+    height: 84px;
+  }
+}
+
+@media (max-width: 375px) {
+  .BannerTextH1 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .search-input {
+    width: 351px;
+    height: 40px;
+  }
 }
 
 .Bannersearch-bar{
@@ -45,6 +71,17 @@ margin-bottom: 40px;
   gap: 8px;
   border-radius: 4px 0px 0px 0px;
   border: 2px 0px 0px 0px;
+}
+
+.btn{
+  color: #44513c;
+}
+.btn-green300 {
+  color: #44513c;
+  &:hover {
+    color: #44513c;
+    background-color: #FFFFFFCC; 
+  }
 }
 
 
