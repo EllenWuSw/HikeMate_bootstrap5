@@ -1,0 +1,83 @@
+// .header{
+//   background: #69F0AE;
+//   font-size: 64px;
+// }
+.header-nav {
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+.top-logo {
+  margin-right: 7.5rem;
+}
+.container-full {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.padding-left-0 {
+  padding-left: 0;
+}
+.margin-bottom-0 {
+  margin-bottom: 0;
+}
+.gap-48px {
+  gap: 3rem;
+}
+.menu_button {
+  padding: 16px 32px;
+  border-radius: 4px 4px 4px 4px;
+  border: 2px solid #c0d0b5;
+  opacity: 0px;
+  font-size: 24px;
+  color: #44513c;
+  font-weight: 700;
+}
+.menu_button:hover {
+  border: 2px solid #44513c;
+  color: #ffffff;
+  background: #44513c;
+}
+.sign-btn-sm {
+  margin-left: 7.5rem;
+  border: 2px solid #44513c;
+  color: #ffffff;
+  background: #44513c;
+}
+
+//手機板
+.navbar {
+  --bs-navbar-padding-y: 0; /* 將上下 padding 設為 0 */
+  --bs-navbar-active-color: inherit; /* 保持與父元素顏色一致 */
+  --bs-navbar-toggler-border-color: none;
+}
+.offcanvas .offcanvas-header {
+  padding: 0; /* 將 padding 設置為 0 */
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+}
+.offcanvas .offcanvas-body {
+  padding: 0; /* 將 padding 設置為 0 */
+  padding: 2rem 1rem;
+}
+.nav-item-li {
+  padding-left: 1rem;
+  font-weight: 700;
+  color: #44513c;
+  border-radius: 4px;
+}
+.nav-item-li:hover {
+  color: #ffffff;
+  background: #44513c;
+}
+.sign-btn {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #5d4f44;
+  border-radius: 4px;
+  text-align: center;
+}
+.custom-gap {
+  gap: 0.625rem; /* 將間距設為10px */
+}
